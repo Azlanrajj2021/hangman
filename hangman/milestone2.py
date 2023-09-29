@@ -45,29 +45,3 @@ if len(guess) == 1 and guess.isalpha():
 else:
     print("Oops! That is not a valid input.")
 
-# Add documentation to your GitHub README file. You can refer to the relevant lesson in the prerequisites for this task for more information.
-# At minimum, your README file should contain the following information:
-# Project Title
-# Table of Contents, if the README file is long
-# A description of the project: what it does, the aim of the project, and what you learned
-# Installation instructions
-# Usage instructions
-# File structure of the project
-# License information
-# You don't have to write all of this at once, but make sure to update your README file as you go along, so that you don't forget to add anything.
-
-# MILESTONE 3
-# Write code that will continuously ask the user for a letter and validate it.
-# Create a new script called milestone_3.py. This file will contain the code for this milestone.
-# Step 1:
-# Create a while loop and set the condition to True. Setting the condition to True` ensures that the code runs continuously.
-# In the body of the loop, write the code required for the following steps.
-# Step 2:
-# Ask the user to guess a letter and assign this to a variable called guess.
-# Step 3:
-# Check that the guess is a single alphabetical character. Hint: You can use Python's isalpha method to check if the guess is alphabetical.
-# Step 4:
-# If the guess passes the checks, break out of the loop.
-# Step 5:
-# If the guess does not pass the checks, then print a message saying "Invalid letter. Please, enter a single alphabetical character."
-
